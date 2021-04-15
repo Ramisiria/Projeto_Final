@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+
+.nav-sup {
+    
+    padding: 5px;
+    height: 45px;
+    background-color: rgb(12, 5, 41);
+    align-items: center;
+display: flex;
+justify-content:center
+
+
+}
+.nav-sup > nav > a {
+  
+    padding: 2em;
+    display: inline-block;
+    font-size: 13px; 
+    font-weight: bold;
+    
+    color: white;
+}
+.nav-sup > nav > a:hover {
+  padding: .5em 1em;
+    background-color: rgb(6, 2, 22);
+    border-radius: .3em;
+}
+.minifoto {
+    border-radius: 1.5em;
+}
+  
+}
