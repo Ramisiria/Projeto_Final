@@ -1,127 +1,106 @@
-* {
-padding: 0%;
-color:rgb(245, 51, 17)
-}
-body {
-    background-color:rgb(235, 235, 229);
+*, html {
+    font-family: 'Libre Baskerville', serif;
     margin: 0;
     padding: 0;
-    text-decoration: none;
-   }
-   .container {
-       height: 10vh;
-       margin: 0 auto;
-   }
+    box-sizing: border-box;
+    color: rgb(44, 43, 43);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
    
-   .nav {
-       height: 58px;
-       display: flex;
-       justify-content:space-around
-       }
-.nav-bar ul li {
-    display: inline:block;
-    align-items:center;
-    float: left;
-    margin:5px;
-    list-style-type:none;
-    text-decoration:underline;
-    padding: 5px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h4 {
+    margin: 1em;
+}
+.logo a {
+    color:rgb(48, 46, 46);
+    font-size:50px;
+    font-weight: bold;
+    text-decoration:none;
+}
+.logo a:hover {
+    color:black
+}
+.nav-bar a {
+    text-decoration: none;
+    margin: 8px;
+    font-size: 24px;
+    color:rgb(41, 40, 40);
+    
+}
+.nav-bar a:hover {
+    color:brown;
 
 }
-a {
-    color:rgb(221, 11, 64)
-}
-.nav-bar ul li a:hover {
-    background-color: rgb(61, 35, 10);
-    border-radius: 3px;
-}
-    /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-.hero-img {
-    width: 100%;
-}
-
-    /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
+/*//////////////////////////////////////////////////////////////////////////////////*/
 
 .profil-foto {
-    margin-top: -8em;
-    margin-left: 37em;
+    width: 50%;
+    margin-top:4em
 }
-.social-midia {
-    border: 2px color:beige;
-    display: flex;
-    justify-content:center;
-    margin-top: -8em;
+.profil-foto img {
+    border-radius: 15em;
+    width: 50% max-content;
+}
+.resumo { 
+       width: 50% ;
+       float: right;
+       margin-top: ;
+margin-top: -25em;
+margin-right: 8em;
 
 }
-.social-midia {
-margin: 0 auto;
-text-align: center;
-margin-right: 38em;
-margin-top: -2em;
+.resumo h1 {
+    font-size: 80px;
+    margin-bottom: .5em;
+}
+.nav {
+ 
+    float: right;
+
+
 }
 
-
-
-.social-midia a {
-    color: rgb(92, 8, 8);
+.nav a {
     text-decoration: none;
-    margin-right: -1em;
+    font-size: 24px;
+    color:rgb(41, 40, 40);
+    padding: 2em;
+    margin-top: -5em;
+    margin-right: 6em;
+    border: solid 1px;
+    border-radius: 30em; 
+    padding-inline: 15px;
 }
 
-
-
-    /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-.titel {
-    color: white;
-margin-left: 55em;
-margin-top: -13em;
-
-}  
-
-
-
-
-.titel p {
-    width: 518px;
-    font-weight:normal;
-    font-size: 21px;
+.resum {
+    background-color:rgb(255, 196, 35);
+}
+.resum:hover {
+    background-color: white;
+    color: black;
+}
+.pro {
+    background-color:rgb(209, 53, 53);
+}
+.pro:hover {
+    background-color: white;
+    color:black
+}
+.cont {
+    background-color: rgb(41, 235, 241);
+}
+.cont:hover {
+    background-color: white;
+    color:black
+}
+}
     
-}
-/*/////////////////////////////////////////////////////////////////////////////////*/
-
-h5{
-    font-size: 15px;}
-h3 {
-    font-size: 30px;
-
-}
-h2{
-    font-size: 55px;
-}
-
-
-
-.formacao  {
-text-align: center;
-    background-color: rgb(255, 255, 255);
-    border-radius: 1em;
     
-}
-
-
-
-
-.experiencia {
-    background-color: rgb(255, 247, 228);
-}
-
-/*////////////////////////////////////////////////////////////////////////////////*/
-
-.projetos {
-    display:flex;
-    width: 260px;
-margin: 30em;
-padding:0
+    

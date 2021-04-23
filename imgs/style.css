@@ -1,0 +1,128 @@
+* {
+padding: 0%;
+color:rgb(245, 51, 17)
+}
+body {
+    background-color:rgb(235, 235, 229);
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+   }
+   .container {
+       height: 10vh;
+       margin: 0 auto;
+   }
+   
+   .nav {
+       height: 58px;
+       display: flex;
+       justify-content:space-around
+       }
+.nav-bar ul li {
+    display: inline:block;
+    align-items:center;
+    float: left;
+    margin:5px;
+    list-style-type:none;
+    text-decoration:underline;
+    padding: 5px;
+
+}
+a {
+    color:rgb(221, 11, 64)
+}
+.nav-bar ul li a:hover {
+    background-color: rgb(61, 35, 10);
+    border-radius: 3px;
+}
+    /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.hero-img {
+    width: 100%;
+}
+
+    /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.profil-foto {
+    margin-top: -8em;
+    margin-left: 37em;
+}
+.social-midia {
+    border: 2px color:beige;
+    display: flex;
+    justify-content:center;
+    margin-top: -8em;
+
+}
+.social-midia {
+margin: 0 auto;
+text-align: center;
+margin-right: 38em;
+margin-top: -2em;
+}
+
+
+
+.social-midia a {
+    color: rgb(92, 8, 8);
+    text-decoration: none;
+    margin-right: -1em;
+}
+
+
+
+    /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.titel {
+    color: white;
+margin-left: 55em;
+margin-top: -13em;
+
+}  
+
+
+
+
+.titel p {
+    width: 518px;
+    font-weight:normal;
+    font-size: 21px;
+    
+}
+/*/////////////////////////////////////////////////////////////////////////////////*/
+
+h5{
+    font-size: 15px;}
+h3 {
+    font-size: 30px;
+
+}
+h2{
+    font-size: 55px;
+}
+
+
+
+.formacao  {
+text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    padding: 2em;
+    
+}
+
+
+
+
+.experiencia {
+    background-color: rgb(255, 247, 228);
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+.projetos {
+    display:flex;
+    width: 260px;
+margin: 30em;
+padding:0
