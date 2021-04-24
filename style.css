@@ -1,11 +1,28 @@
+
+
 *, html {
     font-family: 'Libre Baskerville', serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: rgb(44, 43, 43);
+    background-color: rgb(243, 240, 240);
+
 }
+
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+
 header {
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,20 +42,23 @@ header {
     text-decoration:none;
 }
 .logo a:hover {
-    color:black
+    color:brown;
 }
 .nav-bar a {
     text-decoration: none;
     margin: 8px;
     font-size: 24px;
     color:rgb(41, 40, 40);
+    border-left: solid 2px black;
     
 }
 .nav-bar a:hover {
     color:brown;
 
 }
-/*//////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////MAIN///////////////////////////////////////////////////////*/
+
+
 
 .profil-foto {
     width: 50%;
@@ -53,7 +73,7 @@ header {
        float: right;
        margin-top: ;
 margin-top: -25em;
-margin-right: 8em;
+margin-right: 1em;
 
 }
 .resumo h1 {
@@ -64,7 +84,6 @@ margin-right: 8em;
  
     float: right;
 
-
 }
 
 .nav a {
@@ -73,7 +92,7 @@ margin-right: 8em;
     color:rgb(41, 40, 40);
     padding: 2em;
     margin-top: -5em;
-    margin-right: 6em;
+    margin-right: 3em;
     border: solid 1px;
     border-radius: 30em; 
     padding-inline: 15px;
@@ -81,26 +100,48 @@ margin-right: 8em;
 
 .resum {
     background-color:rgb(255, 196, 35);
+
 }
 .resum:hover {
     background-color: white;
     color: black;
+    transition: all 0.5s ease-out;
 }
 .pro {
-    background-color:rgb(209, 53, 53);
+    background-color:rgb(235, 134, 76);
 }
 .pro:hover {
     background-color: white;
-    color:black
+    color:black;
+    transition: all 0.5s ease-out;
 }
 .cont {
     background-color: rgb(41, 235, 241);
 }
 .cont:hover {
     background-color: white;
-    color:black
+    color:black;
+    transition: all 0.5s ease-out;
 }
+/*///////////////////////////////////////FOOTER///////////////////////////////////////////////*/
+
+
+footer{
+   
+    margin-top: 20em;
+    padding: 4em;
+    border-top: solid 1px rgb(133, 124, 124);
+  display: flex;
+    justify-content: space-between;
 }
-    
-    
+
+   
+   
+   
+   
+   
+    /*.container {
+        background-color: tomato;
+        display: block;
+        font-size: 12px;*/
     
