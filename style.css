@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     color: rgb(44, 43, 43);
-    background-color: rgb(235, 229, 229);
+    background-color: rgba(239, 239, 245, 0.993);
 
 }
 
@@ -26,6 +26,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 6em;
    
 }
 .logo {
@@ -166,4 +167,30 @@ margin-right: 0 auto;
 .educacao {
     border-top: solid 1px rgb(44, 44, 44);
     margin-top: 30em;
+}
+  /*//////////////////////////////////////////PAGINA DO projetos///////////////////////////////////////////////*/ 
+.contant {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 5em;
+
+
+}
+.projeto1{
+    margin-left: 5em;
+    padding-bottom: 2em;
+    font-size: xx-large;
+}
+.h2 {
+    padding-bottom: 1em
+    ;
+}
+
+ .titulo1 {
+    width: 30%;
+    margin-right: 7em;
+}
+.foto1 {
+    width: 50%;
+    margin-right:-10em;
 }
