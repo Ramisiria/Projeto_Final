@@ -57,6 +57,9 @@ header {
     color:brown;
 
 }
+#burger {
+    display:none;
+}
 /*///////////////////////////MAIN///////////////////////////////////////////////////////*/
 
 
@@ -213,7 +216,7 @@ margin-right: 6em;
 
 }
 .contato1 h3 {
-    margin: 2em;
+    margin: 2em; 
 }
 .form{
 display: flex;  
@@ -260,14 +263,87 @@ flex-direction: column;
     transition: all 0.5s ease-out;
 
 }
+/*///////////////////////////////// Media query /////////////////////////////*/
 
+@media(max-width: 1062px) {
+    
+    .profil-foto img{ 
+        width: 50%;
+        height: 50%;
+margin-left: 10em;        
+        
+    }
+    .resumo {
+        margin-left: 5em;  
+        float: none;
+        margin-top: 5em;
 
+    }
+    .nav {
+        float: none;
+        margin-top: 5em;
+        margin-left: 5em; 
+        
+
+    }
+    #burger {
+background-color: transparent;        display: block;
+        width: 70px;
+        height: 50px;
+        border-radius: 1em;
+        align-items:flex-start;
+        
+  }
+    #burger div {
+        background-color: gray;
+        height: 8px;
+        border-radius: 5px;
+    }
+    #burger div + div {
+        margin-top: 5px;
+    }
+   
+   
+    header {
+        width: 750px;
+    }
+    .nav-bar {
+        
+        position: fixed;
+        margin-top: 150px;
+        width: 100%;
+        height: 100%;
+        top: -0;
+        left: 0;
+        display: block;
+        background-color: rgba(175, 169, 169, 0.705);
+        
+        
+    }
+    .nav-bar a {
+        background: transparent;
+        display: block;
+        margin-top: 2em;
+        margin-left: 3em;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    .nav-bar.active{
+        display: none;
+        transition-property: right;
+        transition-duration: .30s;
+        transition-timing-function: ease-in-out;
+    }
+  
+
+    }
+}
 
 
 
 
 /*///////////////////////////////// Media query /////////////////////////////*/
-
+/*
 @media (min-width: 400px) and (max-width: 683px) {
      
     * {
@@ -368,4 +444,7 @@ display: block;        }
     }      
         .contact-main {
             display: grid;
-            */
+        }      
+        .nav-bar {
+
+        }
