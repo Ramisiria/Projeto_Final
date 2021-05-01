@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     color: rgb(44, 43, 43);
-    background-color: rgba(239, 239, 245, 0.993);
+    background-color: rgba(224, 245, 250, 0.993);
 
 }
 
@@ -139,8 +139,7 @@ footer{
   
 .titel {
     width: 50%;
-    margin-top: 8em;
-    margin-left: 11em;
+    margin-left: 5em;
     font-weight:bolder;
     font-size: 25px;
 }
@@ -148,6 +147,10 @@ footer{
 
 .titel h3 {
 margin-top: 5em;
+}
+.experiencia {
+
+    margin-bottom: 20em;
 }
 .cargo {
 
@@ -159,14 +162,14 @@ margin-top: -12em;
 padding-bottom: 4em;
 }
 .cargo article {
-    padding: 1em;
+    margin-top: 2em;
 }
 .data {
 margin-right: 0 auto;
 }
 .educacao {
-    border-top: solid 1px rgb(44, 44, 44);
-    margin-top: 30em;
+    display:block;
+padding-top: 2em;    border-top: solid 1px rgb(44, 44, 44);
 }
   /*//////////////////////////////////////////PAGINA DO projetos///////////////////////////////////////////////*/ 
 .contant {
@@ -176,13 +179,16 @@ margin-right: 0 auto;
 
 
 }
-.projeto1{
+.projeto1 {
+    font-size: 25px;
+
     margin-left: 5em;
     padding-bottom: 2em;
-    font-size: xx-large;
+
 }
 .h2 {
-    padding-bottom: 1em
+    padding-bottom: 1em;
+
     ;
 }
 
@@ -194,3 +200,172 @@ margin-right: 0 auto;
     width: 50%;
     margin-right:-10em;
 }
+
+
+  /*//////////////////////////////////////////PAGINA DO CONTATO///////////////////////////////////////////////*/ 
+  .contact-main {
+margin: 15em;      display: flex;
+margin-right: 6em;
+
+  }
+.contato1 { 
+    width: 50%;
+
+}
+.contato1 h3 {
+    margin: 2em;
+}
+.form{
+display: flex;  
+flex-direction: column;
+
+} 
+.contato2 {
+    margin-top: -15em;
+    margin-bottom: 4em;
+}
+.contato2 h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.form {
+    margin-top: -12em;
+    width: 70%;
+    display:grid;
+    justify-content:left
+
+}
+
+.enviar {
+    background-color:rgb(255, 196, 35);
+
+   height: 130px;
+   width: 130px;
+   border-radius: 5em;
+   margin-left: 2.5em;
+   margin-top: 1em;
+
+}
+.text {
+    margin-top: 2em;
+    height: 130px;
+    width: 100%;
+    
+   
+
+}
+.enviar:hover {
+    background-color: white;
+    color:black;
+    transition: all 0.5s ease-out;
+
+}
+
+
+
+
+
+
+/*///////////////////////////////// Media query /////////////////////////////*/
+
+@media (min-width: 400px) and (max-width: 683px) {
+     
+    * {
+    }
+    
+    
+    
+    body {
+        margin-left: 1em;
+
+    }
+    header {
+        display:block
+    }
+    .logo a {
+        font-size: 2em;
+    }
+    .profil-foto img {
+        width: 200px;
+        height: 200px;
+        margin-top: -9em;
+    }
+    .resumo {
+        
+        float: none;
+        margin-top: 4em;
+    }
+    .resumo h1 h3  {
+        font-size: 20px;
+    }
+    .resumo p {
+        width: 300px;
+    }
+    .nav  {
+        float: none;
+        width: 500px;
+        width: 1.5em;
+        display: flex;
+        margin-top: 4em;
+    }
+        .nav a {
+            font-size: 12px;
+
+        }
+        footer {
+display: block;        }
+.contact-main {
+    display: grid;
+}
+
+}
+  
+  
+@media (min-width: 642px) and (max-width: 1224px) {
+     
+   
+    
+    body {
+        margin-left: 1em;
+
+    }
+    header {
+        display:block
+    }
+    
+    .logo a {
+        font-size: 2em;
+    }
+    .profil-foto img {
+        width: 200px;
+        height: 200px;
+        margin-top: -9em;
+    }
+    .resumo {
+        
+        float: none;
+        margin-top: 4em;
+    }
+    .resumo h1 h3  {
+        font-size: 20px;
+    }
+    .resumo p {
+        width: 300px;
+    }
+    .nav  {
+        float: none;
+        width: 500px;
+        width: 1.5em;
+        display: flex;
+        margin-top: 4em;
+    }
+        .nav a {
+            font-size: 12px;
+
+        }
+        footer {
+        display: block;  
+    }      
+        .contact-main {
+            display: grid;
+            */
