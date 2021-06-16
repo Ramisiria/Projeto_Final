@@ -1,0 +1,304 @@
+
+
+*, html {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(44, 43, 43);
+    background-color: rgba(224, 245, 250, 0.993);
+
+}
+
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+
+header {
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 6em;
+   
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h4 {
+    margin: 1em;
+}
+.logo a {
+    color:rgb(48, 46, 46);
+    font-size:50px;
+    font-weight: bold;
+    text-decoration:none;
+}
+.logo a:hover {
+    color:brown;
+}
+.nav-bar a {
+    text-decoration: none;
+    margin: 8px;
+    font-size: 24px;
+    color:rgb(41, 40, 40);
+    border-left: solid 2px black;
+    
+}
+.nav-bar a:hover {
+    color:brown;
+
+}
+#burger {
+    display:none;
+}
+/*///////////////////////////MAIN///////////////////////////////////////////////////////*/
+
+
+
+.profil-foto {
+    width: 50%;
+    margin-top:4em
+}
+.profil-foto img {
+    border-radius: 15em;
+    width: 50% max-content;
+}
+.resumo { 
+       width: 50% ;
+       float: right;
+       margin-top: ;
+margin-top: -25em;
+margin-right: 1em;
+
+}
+.resumo h1 {
+    font-size: 80px;
+    margin-bottom: .5em;
+}
+.nav {
+ 
+    float: right;
+
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 24px;
+    color:rgb(41, 40, 40);
+    padding: 2em;
+    margin-top: -5em;
+    margin-right: 3em;
+    border: solid 1px;
+    border-radius: 30em; 
+    padding-inline: 15px;
+}
+
+.resum {
+    background-color:rgb(255, 196, 35);
+
+}
+.resum:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.5s ease-out;
+}
+.pro {
+    background-color:rgb(235, 134, 76);
+}
+.pro:hover {
+    background-color: white;
+    color:black;
+    transition: all 0.5s ease-out;
+}
+.cont {
+    background-color: rgb(41, 235, 241);
+}
+.cont:hover {
+    background-color: white;
+    color:black;
+    transition: all 0.5s ease-out;
+}
+/*///////////////////////////////////////FOOTER///////////////////////////////////////////////*/
+
+
+footer{
+    margin-top: 40em;
+    padding: 4em;
+    border-top: solid 1px rgb(133, 124, 124);
+  display: flex;
+    justify-content: space-between;
+}
+
+  /*//////////////////////////////////////////PAGINA DO RESUMO///////////////////////////////////////////////*/ 
+  
+.titel {
+    width: 50%;
+    margin-left: 5em;
+    font-weight:bolder;
+    font-size: 25px;
+}
+
+
+.titel h3 {
+margin-top: 5em;
+}
+.experiencia {
+
+    margin-bottom: 20em;
+}
+.cargo {
+
+width: 600px;
+flex-direction: column;
+float: right;
+margin-right: 20em;
+margin-top: -12em;
+padding-bottom: 4em;
+}
+.cargo article {
+    margin-top: 2em;
+}
+.data {
+margin-right: 0 auto;
+}
+.educacao {
+    display:block;
+padding-top: 2em;    border-top: solid 1px rgb(44, 44, 44);
+}
+
+  /*//////////////////////////////////////////PAGINA DO projetos///////////////////////////////////////////////*/ 
+.contant {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 5em;
+
+
+}
+.projeto1 {
+    font-size: 25px;
+
+    margin-left: 5em;
+    padding-bottom: 2em;
+
+}
+.h2 {
+    padding-bottom: 1em;
+
+    ;
+}
+
+ .titulo1 {
+    width: 30%;
+    margin-right: 7em;
+}
+.foto1 {
+    width: 50%;
+    margin-right:-10em;
+}
+
+
+  /*//////////////////////////////////////////PAGINA DO CONTATO///////////////////////////////////////////////*/ 
+  .contact-main {
+margin: 15em;      display: flex;
+margin-right: 6em;
+
+  }
+.contato1 { 
+    width: 50%;
+
+}
+.contato1 h3 {
+    margin: 2em; 
+}
+
+
+} 
+.contato2 {
+    margin-top: -15em;
+    margin-bottom: 4em;
+}
+.contato2 h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+.formulario{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+/*///////////////////////////////// Media query /////////////////////////////*/
+@media(max-width: 1062px) {
+    *{
+  
+flex-wrap: wrap;  }
+}
